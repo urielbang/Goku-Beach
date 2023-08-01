@@ -1,0 +1,28 @@
+body {
+  background-image: url(fotos/pexels-pok-rie-130879.jpg);
+}
+img {
+  width: 15vw;
+  height: 15vh;
+  position: relative;
+  top: 65vw;
+  animation-name: going;
+  animation-duration: 4s;
+}
+@keyframes going {
+  0% {
+    left: 0%;
+  }
+  25% {
+    left: 5vw;
+  }
+  50% {
+    left: 20vw;
+  }
+  75% {
+    left: 35vw;
+  }
+  100% {
+    left: 45vw;
+  }
+}
