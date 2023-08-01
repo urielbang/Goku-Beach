@@ -5,7 +5,7 @@ img {
   width: 15vw;
   height: 15vh;
   position: relative;
-  top: 65vw;
+  top: 40vw;
   animation-name: going;
   animation-duration: 4s;
 }
